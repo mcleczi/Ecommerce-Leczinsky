@@ -218,8 +218,9 @@ body {
 }
 
 .btn-size {
-    color: #fff;
-    background-color: #337ab7;
+    /*color: #fff;*/
+    /*background-color: #337ab7;*/
+    background-color: white;
     border-color: #2e6da4;
     display: inline-block;
     padding: 4px 10px;
@@ -242,10 +243,13 @@ body {
     border-radius: 4px;
     width: 43px;
     height: 32px;
+    border-color: #337ab7;
+
 }
 .btn-size.focus, .btn-size:focus, .btn-size:hover{
     color: #fff !important;
-    background-color: #204d74;
+    /*background-color: #204d74;*/
+    background-color: #337ab7;
     border-color: #204d74;
     /*color: #333;*/
     text-decoration: none;
